@@ -1,0 +1,67 @@
+/* ~~~~~~~~ general ~~~~~~~~ */
+
+body {
+  background: #F4D5C4;
+  color: #0E0906;
+  font-family: 'Tajawal', sans-serif;
+}
+
+p {
+
+}
+
+a {
+  color: #0E0906;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* ~~~~~~~~ header ~~~~~~~~ */
+header {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* ~~~~~~~~ nav ~~~~~~~~ */
+
+.navigation {
+  position: fixed;
+  transform: rotate(90deg);
+  transform-origin: right;
+  top: 50%;
+  right: 25px;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+/* ~~~~~~~~ main ~~~~~~~~ */
+
+.full-section {
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+/* ~~~~~~~~ footer ~~~~~~~~ */
