@@ -1,13 +1,16 @@
 /* ~~~~~~~~ general ~~~~~~~~ */
-
 body {
   background: #F8E5E4;
   color: #C10805;
   font-family: 'Lato', sans-serif;
 }
 
-p {
+.row {
+  margin: 0;
+}
 
+p {
+  font-size: 0.9em;
 }
 
 a {
@@ -15,22 +18,37 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
+h4 {
+  font-size: 0.8em;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  min-width: 200px;
 }
 
 /* ~~~~~~~~ header ~~~~~~~~ */
 header {
   position: fixed;
+  top: 15px;
   left: 50%;
   transform: translate(-50%, 0);
+  text-align: center;
+  z-index: 9999;
 }
 
-header h1, .navigation li, footer p {
+header h1, .navigation li, footer p, #contact {
   font-weight: 900;
   letter-spacing: 0.2em;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 header h1 {
@@ -39,13 +57,13 @@ header h1 {
 }
 
 /* ~~~~~~~~ nav ~~~~~~~~ */
-
 .navigation {
   position: fixed;
   transform: rotate(90deg);
   transform-origin: right;
   bottom: 0;
-  right: 25px;
+  right: 35px;
+  z-index: 9999;
 }
 
 .navigation li {
@@ -55,7 +73,6 @@ header h1 {
 }
 
 /* ~~~~~~~~ main ~~~~~~~~ */
-
 .full-section {
   width: 100%;
   height: 100vh;
@@ -67,8 +84,26 @@ header h1 {
   margin: 0 auto;
 }
 
-.center {
-  text-align: center;
+.container-limited {
+  max-width: 700px;
+  margin: 0 auto;
 }
+
+/* ~~~~~~~~ about ~~~~~~~~ */
+#about {
+  margin: 0 auto 100px;
+}
+
+#about p {
+  width: 60%;
+  min-width: 350px;
+  margin: 20px auto;
+}
+
+/* ~~~~~~~~ portfolio ~~~~~~~~ */
+
+/* ~~~~~~~~ skills ~~~~~~~~ */
+
+/* ~~~~~~~~ contact ~~~~~~~~ */
 
 /* ~~~~~~~~ footer ~~~~~~~~ */
