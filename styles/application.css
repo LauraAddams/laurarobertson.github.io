@@ -1,9 +1,9 @@
 /* ~~~~~~~~ general ~~~~~~~~ */
 
 body {
-  background: #F4D5C4;
-  color: #0E0906;
-  font-family: 'Tajawal', sans-serif;
+  background: #F8E5E4;
+  color: #C10805;
+  font-family: 'Lato', sans-serif;
 }
 
 p {
@@ -11,7 +11,7 @@ p {
 }
 
 a {
-  color: #0E0906;
+  color: #C10805;
   text-decoration: none;
 }
 
@@ -27,8 +27,15 @@ header {
   transform: translate(-50%, 0);
 }
 
+header h1, .navigation li, footer p {
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  font-size: 11px;
+}
+
 header h1 {
-  margin: 0;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
 }
 
 /* ~~~~~~~~ nav ~~~~~~~~ */
@@ -37,7 +44,7 @@ header h1 {
   position: fixed;
   transform: rotate(90deg);
   transform-origin: right;
-  top: 50%;
+  bottom: 0;
   right: 25px;
 }
 
