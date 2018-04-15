@@ -114,6 +114,44 @@ header h1{
 
 /* ~~~~~~~~ skills ~~~~~~~~ */
 
+#skills article:nth-child(1) {
+  margin-top: 80px;
+}
+
+#skills article:nth-child(2) {
+  margin-top: 40px;
+}
+
+.pie-graph {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: #C10805;
+}
+
+.bar-graph {
+  width: 400px;
+  padding: 5px;
+  border-right: 1px solid #C10805;
+  transition: width 1s ease-in;
+  position: relative;
+}
+
+.bar-graph::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 100%;
+  border: 1px solid #C10805;
+  border-radius: 2px;
+}
+
+.title, .title::before {
+  border-width: 0;
+}
+
 /* ~~~~~~~~ contact ~~~~~~~~ */
 
 /* ~~~~~~~~ footer ~~~~~~~~ */
