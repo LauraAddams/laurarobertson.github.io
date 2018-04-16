@@ -1,11 +1,10 @@
-ul {
+.full-section ul {
   margin-left: 20%;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-li {
-  list-style: none;
+.full-section li {
   letter-spacing: 0.1em;
   font-size: 12px;
   text-transform: uppercase;
@@ -21,10 +20,6 @@ h2 {
 
 .full-section {
   max-width: 650px;
-}
-
-img {
-  border-radius: 2px;
 }
 
 .row {
