@@ -1,5 +1,5 @@
 $(window).scroll(() => {
-  if ($(window).scrollTop() >= 475) {
+  if ($(window).scrollTop() >= 500) {
     $('header').addClass('fixed-header');
     $('#about p').addClass('fixed-adjustment');
   } else {
