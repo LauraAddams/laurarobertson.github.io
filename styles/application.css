@@ -2,7 +2,8 @@
 body {
   background: #F8E5E4;
   color: #C10805;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .row {
@@ -10,7 +11,7 @@ body {
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 a {
@@ -18,13 +19,13 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
+ul {
+  padding-left: 0;
 }
 
-.center {
-  text-align: center;
-  margin: 0 auto;
+li {
+  list-style: none;
+  font-size: 0.9em;
 }
 
 img {
@@ -34,6 +35,20 @@ img {
   border-radius: 2px;
 }
 
+h2, h4, h5 {
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 0.9em;
+  font-weight: 900;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .navigation li, footer p, h4, .small-bold, #portfolio li {
   font-weight: 900;
   letter-spacing: 0.2em;
@@ -41,9 +56,9 @@ img {
 }
 
 /* ~~~~~~~~ header ~~~~~~~~ */
-header h1{
+header h1, h2{
   font-weight: 900;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   font-size: 1.8em;
 }
@@ -118,22 +133,19 @@ header h1{
 }
 
 .highlighted {
-  border-bottom: 1px solid #C10805;
-  padding: 2px;
+  font-weight: 500;
 }
 
 /* ~~~~~~~~ skills ~~~~~~~~ */
-#skills {
+#skills, #graph {
   padding-top: 20px;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
+  max-width: 900px;
 }
 
-#skills article:nth-child(1) {
-  margin-top: 100px;
-}
-
-#skills article:nth-child(2) {
-  margin-top: 50px;
+#graph article:nth-child(2) {
+  width: 400px;
+  background: gold;
 }
 
 .bar-graph {
@@ -168,6 +180,40 @@ header h1{
 /* ~~~~~~~~ contact ~~~~~~~~ */
 #contact p {
   font-size: 12px;
+}
+
+/* ~~~~~~~~ resume ~~~~~~~~ */
+.resume section {
+  margin: 40px 0;
+}
+
+.resume section article {
+  padding: 20px;
+}
+
+.resume h2{
+  text-align: center;
+  margin-top: 35px;
+}
+
+.resume h4 {
+  padding: 5px;
+  width: 100%;
+  border-bottom: 3px solid #C10805;
+}
+
+article p:last-child {
+  font-style: italic;
+}
+
+section:last-child article p:last-child {
+  font-style: normal;
+}
+
+.date {
+  float: right;
+  font-weight: 500;
+  font-size: 0.8em;
 }
 
 /* ~~~~~~~~ mobile ~~~~~~~~ */
