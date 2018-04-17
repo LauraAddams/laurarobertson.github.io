@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #C10805;
+  text-decoration: none;
+}
+
 ul {
   padding-left: 0;
 }
@@ -137,10 +142,17 @@ header h1, h2{
 }
 
 /* ~~~~~~~~ skills ~~~~~~~~ */
-#skills, #graph {
-  padding-top: 20px;
-  margin: 0 auto 50px;
+#skills {
   max-width: 900px;
+  padding-top: 60px;
+  margin: 0 auto 50px;
+}
+#skills .row {
+  margin: 0 auto 50px;
+}
+
+#skills .row:last-child {
+  margin: 0 auto;
 }
 
 #graph article:nth-child(2) {
@@ -172,15 +184,8 @@ header h1, h2{
 }
 
 /* ~~~~~~~~ portfolio ~~~~~~~~ */
-#portfolio {
-  max-width: 900px;
-  margin: 0 auto;
-}
 
 /* ~~~~~~~~ contact ~~~~~~~~ */
-#contact p {
-  font-size: 12px;
-}
 
 /* ~~~~~~~~ resume ~~~~~~~~ */
 .resume section {
@@ -223,8 +228,8 @@ section:last-child article p:last-child {
     padding: 0 10px;
   }
 
-  graph {
-    margin: 50px auto;
+  .navigation {
+    right: 25px;
   }
 
   .bar-graph {
@@ -235,11 +240,11 @@ section:last-child article p:last-child {
     width: 300px;
   }
 
-  #skills article:nth-child(1) {
-    margin-top: 0;
+  #skills ul li {
+    display: inline-block;
   }
 
-  #skills article:nth-child(2) {
-    margin-top: 0;
+  .resume h2{
+    margin-top: 50px;
   }
 }
