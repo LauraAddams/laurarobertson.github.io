@@ -229,13 +229,25 @@ header h1 {
 .fixed-section {
   position: fixed;
   padding-right: 10%;
-  margin: 60px 0px 0 12px;
+  margin: 0;
   width: calc(50vw - 10%);
   max-width: 900px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .fixed-section p {
   padding-top: 1rem;
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+.fixed-section small {
+  padding: 1rem;
+  display: block;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-size: 0.7em;
 }
 
 /* ~~~~~~~~ resume ~~~~~~~~ */
