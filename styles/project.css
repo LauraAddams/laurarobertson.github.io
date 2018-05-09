@@ -1,0 +1,65 @@
+/* ~~~~~~~~ project ~~~~~~~~ */
+.project-single section {
+  direction: rtl;
+}
+
+.project-single section p {
+    direction: ltr;
+}
+
+.gallery {
+  text-align: right;
+  padding-left: 0;
+  margin: 0;
+  width: calc(50vw);
+}
+
+.full {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.fixed-section {
+  position: fixed;
+  padding-right: 10%;
+  margin: 0;
+  width: calc(50vw - 10%);
+  max-width: 900px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fixed-section p {
+  padding-top: 1rem;
+  text-align: justify;
+}
+
+.fixed-section small {
+  padding: 1rem 0;
+  display: block;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-size: 0.7em;
+}
+
+@media screen and (max-width: 576px) {
+  .project-single section {
+    direction: ltr;
+  }
+
+  .gallery {
+    text-align: right;
+    padding-top: 60px;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .fixed-section {
+    position: relative;
+    margin: 40px auto 0;
+    padding-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+}

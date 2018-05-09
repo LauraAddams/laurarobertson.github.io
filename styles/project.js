@@ -9,7 +9,7 @@ $(document).ready(() => {
     design to get you excited for your next cooking project. </p> Built with Ruby on
     Rails, test-driven with Minitest and VCR.`,
     stack: 'Rails, Edamam API, Minitest, HTTParty, VCR, Heroku',
-    image1: './assets/images/yumyumgo.gif',
+    image1: './assets/images/yumyumgogo.gif',
     image2: './assets/images/yumyum2.png',
     image3: './assets/images/yumyum3.png',
     image4: './assets/images/yumyum1.png',
@@ -48,7 +48,7 @@ $(document).ready(() => {
 
   projects.knowyourglow = {
     title: 'Know Your Glow',
-    link: '#',
+    link: 'https://github.com/LauraRobertson/KnowYourGlow',
     github: 'https://github.com/LauraRobertson/KnowYourGlow',
     description: `An IOS app for users who are interested in being smarter beauty consumers.
     Users can search skincare products, tag allergens, modify day & night routines and add

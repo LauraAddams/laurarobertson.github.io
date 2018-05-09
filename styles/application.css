@@ -208,87 +208,11 @@ header h1 {
 
 /* ~~~~~~~~ contact ~~~~~~~~ */
 
-/* ~~~~~~~~ project ~~~~~~~~ */
-.project-single section {
-  direction: rtl;
-}
-
-.project-single section p {
-    direction: ltr;
-}
-
-.gallery {
-  text-align: right;
-  padding-top: 60px;
-  margin-left: 10%;
-  padding-left: 0;
-  width: calc(50vw - 10%);
-  max-width: 900px;
-}
-
-.fixed-section {
-  position: fixed;
-  padding-right: 10%;
-  margin: 0;
-  width: calc(50vw - 10%);
-  max-width: 900px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.fixed-section p {
-  padding-top: 1rem;
-  text-align: justify;
-  font-size: 0.8em;
-}
-
-.fixed-section small {
-  padding: 1rem;
-  display: block;
-  text-align: center;
-  letter-spacing: 0.03em;
-  font-size: 0.7em;
-}
-
-/* ~~~~~~~~ resume ~~~~~~~~ */
-.resume section {
-  margin: 40px 0;
-}
-
-.resume section article {
-  padding: 20px;
-}
-
-.resume h2{
-  text-align: center;
-  margin-top: 35px;
-}
-
-.resume h4 {
-  padding: 5px;
-  width: 100%;
-  border-bottom: 3px solid #C10805;
-}
-
-article p:last-child {
-  font-style: italic;
-}
-
-section:last-child article p:last-child {
-  font-style: normal;
-}
-
-.date {
-  float: right;
-  font-weight: 500;
-  font-size: 0.8em;
-}
-
 /* ~~~~~~~~ mobile ~~~~~~~~ */
 
 @media screen and (max-width: 576px) {
   body {
-    padding: 0 10px;
+    padding: 0 15px;
   }
 
   .navigation {
@@ -305,29 +229,5 @@ section:last-child article p:last-child {
 
   #skills ul li {
     display: inline-block;
-  }
-
-  .resume h2{
-    margin-top: 50px;
-  }
-
-  .project-single section {
-    direction: ltr;
-  }
-
-  .gallery {
-    text-align: right;
-    padding-top: 60px;
-    margin-left: 0;
-    padding-left: 0;
-    width: 100%;
-  }
-
-  .fixed-section {
-    position: relative;
-    margin: 90px auto 0;
-    padding-right: 0;
-    width: 100%;
-    text-align: center;
   }
 }

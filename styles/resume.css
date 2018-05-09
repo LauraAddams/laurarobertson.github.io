@@ -1,0 +1,62 @@
+/* ~~~~~~~~ resume ~~~~~~~~ */
+.resume section {
+  margin: 40px 0;
+}
+
+.resume section article {
+  padding: 20px 20px 0;
+}
+
+.resume h2{
+  text-align: center;
+  margin-top: 35px;
+}
+
+.resume h4 {
+  width: 100%;
+  border-bottom: 2px solid #C10805;
+}
+
+.resume h5 {
+  font-weight: bold;
+}
+
+.resume h6 {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+
+.resume li {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.resume article p:last-child {
+  font-style: italic;
+}
+
+section:last-child article p:last-child {
+  font-style: normal;
+}
+
+.date {
+  float: right;
+  font-size: 0.8em;
+}
+
+.skills p {
+  margin-bottom: 5px;
+}
+
+.skills .small-bold {
+  width: 120px;
+  padding-right: 10px;
+  display: inline-block;
+  text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+  .resume h2{
+    margin-top: 50px;
+  }
+}
